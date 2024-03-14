@@ -1,0 +1,46 @@
+// .form {
+// }
+
+.form__input {
+  height: 50px;
+  padding: 12px;
+  text-align: center;
+  background-color: rgb(255, 255, 255, 0.2);
+  color: $white;
+  font-size: 14px;
+  transition: all 0.5s ease;
+
+  &::placeholder {
+    color: $placeholder;
+  }
+
+  &:focus {
+    background-color: rgb(255, 255, 255, 0.25);
+  }
+}
+
+.form__privacy {
+  color: $muted;
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+
+  @include mediaTablet {
+    order: 4;
+  }
+}
+
+.form__button {
+  height: 50px;
+  color: $white;
+  background-color: $accent;
+  font-size: 16px;
+  font-weight: 700;
+  text-align: center;
+  padding: 12px;
+  transition: all 0.5s ease;
+
+  &:hover {
+    background-color: saturate($accent, 10%);
+  }
+}

@@ -1,0 +1,36 @@
+.info {
+  position: relative;
+  font-size: 18px;
+
+  &--map,
+  &--tel {
+    padding-left: 35px;
+
+    &::before {
+      content: '';
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      width: 21px;
+      height: 21px;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    @include mediaTablet {
+      font-size: 14px;
+    }
+
+    @include mediaTablet {
+      padding-left: 30px;
+    }
+  }
+
+  &--tel::before {
+    background-image: url('./../img/phone-icon.svg');
+  }
+
+  &--map::before {
+    background-image: url('./../img/map-icon.svg');
+  }
+}

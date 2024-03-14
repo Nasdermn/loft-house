@@ -1,0 +1,29 @@
+[class*='copyrights-pane'] {
+  display: none;
+}
+
+[class*='balloon__layout'],
+[class*='balloon__content'] {
+  background-color: #3579c7;
+  color: #000;
+}
+
+[class*='balloon__tail']::after {
+  background-color: #3579c7;
+}
+
+[class*='balloon_layout_panel'] {
+  background-color: #15375f;
+}
+
+[class*='balloon__layout'],
+[class*='balloon__content'] a {
+  color: #9c1051;
+}
+
+[class*='balloon__close-button'] {
+  background: url('./../img/cross.svg') 50% no-repeat;
+  width: 8px;
+  height: 8px;
+  margin: 10px 7px;
+}

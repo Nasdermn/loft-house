@@ -40,7 +40,7 @@ ymaps.ready(function () {
       },
       {
         iconLayout: 'default#image',
-        iconImageHref: './../img/sofa.svg',
+        iconImageHref: 'https://raw.githubusercontent.com/Nasdermn/loft-house/main/img/sofa.svg',
         iconImageSize: [40, 40],
         iconImageOffset: [-20, -40],
       },
